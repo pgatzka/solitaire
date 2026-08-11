@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if ! ./mvnw spotless:check -q; then
+    echo 1>&2 "spotless found problems, running spotless:apply; commit the result and re-push"
+    ./mvnw spotless:apply -q
+    exit 1
+fi
