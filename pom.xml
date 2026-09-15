@@ -32,7 +32,7 @@
     <java.version>25</java.version>
 
     <spotless.version>3.8.0</spotless.version>
-    <sonar.version>5.7.0.6970</sonar.version>
+    <sonar.version>5.8.0.7211</sonar.version>
 
     <sonar.projectKey>io.github.pgatzka:example</sonar.projectKey>
     <sonar.organization>pgatzka</sonar.organization>
